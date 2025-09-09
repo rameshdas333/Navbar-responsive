@@ -3,9 +3,10 @@ import Feature from '../Feature/Feature';
 
 const PriceOption = ({option}) => {
 
-    const {name,price,features,id} = option;
+    const {name,price,features,} = option;
     return (
-        <div className='rounded-lg bg-blue-500 shadow-sm text-white p-8 mt-6 flex flex-col'>
+        <div className='rounded-lg bg-blue-500 shadow-sm text-white p-8 mt-6 flex flex-col
+hover:scale-110 hover:bg-blue-600 transition duration-300 ease-in-out'>
         
         <h2>
 
